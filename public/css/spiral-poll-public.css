@@ -1,0 +1,63 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.award_green_area {
+  background-color: #a8c1bd;
+}
+
+.award_login {
+  width: 100%;
+  max-width: 540px;
+}
+
+.award_login .login-submit input {
+  background: #eeae48;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+}
+
+.award_login .login-username,
+.award_login .login-password,
+.award_login .login-submit {
+  display: flex;
+  align-items: center;
+}
+
+.award_login .login-username label,
+.award_login .login-password label {
+  flex: 0 0 30%;
+}
+
+.award_login .login-username input,
+.award_login .login-password input {
+  flex: 0 0 100%;
+  border: 1px solid #ced4da;
+  border-radius: 0.375rem;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+}
+
+.award_login .login-submit {
+  margin-left: 30% !important;
+}
+
+hr.award_border {
+  border: 5px solid #a8c1bd !important;
+  opacity: 1;
+  max-width: 1300px !important;
+  box-sizing: border-box;
+}
+
+.award_vote_box .voted {
+  background-color: #4ca3ff;
+}
+
+.award_vote_box .watch:hover {
+  cursor: pointer;
+  background-color: #4ca3ff;
+}

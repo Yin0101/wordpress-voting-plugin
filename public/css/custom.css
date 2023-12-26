@@ -1,0 +1,148 @@
+.flex-column{
+    display: flex;
+}
+.award_vote_box .watch{
+    width:20%;
+}
+
+.award_vote_box .watch{
+    padding:20px;
+}
+
+.award_banner_page img {
+    height: 330px;
+    width: 100%;
+    object-fit: cover;
+}
+.award_vote_box .voted{
+    background-color: #4ca3ff;
+}
+
+.award_green_area {
+    background: #a0c6c9;
+    padding: 0 30px;
+}
+
+.award_login {
+    width: 100%;
+    max-width: 540px;
+}
+
+.award_login .submit_button input {
+    background: #eeae48;
+    color: #000;
+    border: none;
+    padding: 15px 30px;
+    font-weight: 700 !important;
+    font-size: 24px !important;
+}
+
+.award_login .login-submit {
+    margin-left: 80px;
+}
+
+.award_login .login-submit input {
+    background: #eeae48;
+    color: #000;
+    border: none;
+    padding: 10px 30px;
+    font-weight: 700 !important;
+}
+
+.award_login .login-username label,
+.award_login .login-password label {
+    min-width: 75px;
+}
+
+.award_login .submit_button input.blue_button {
+    background: url(https://spiralmagazine.com/wp-content/uploads/2022/12/bar-chart.svg) #a0c6c9 no-repeat left 30px center;
+    background-size: auto 28px;
+    padding-left: 68px;
+}
+
+.award_login .submit_button input.tick_button {
+    background: url(https://spiralmagazine.com/wp-content/uploads/2022/12/check.svg) #eeae48 no-repeat left 30px center;
+    background-size: auto 28px;
+    padding-left: 68px;
+}
+
+.award_login .submit_button input.award_button {
+    background: url(https://spiralmagazine.com/wp-content/uploads/2023/01/icon_award_done.svg) #eeae48 no-repeat left 30px center;
+    background-size: auto 28px;
+    padding-left: 68px;
+}
+
+.award_vote_box {
+    background: #E5E5E5;
+    margin: 30px;
+}
+
+.award_vote_box .title {
+    font-family: Oswald !important;
+    font-weight: normal;
+    margin-top: 10px !important;
+}
+
+.award_vote_box .watch {
+    border: 1px solid transparent;
+    width: 20%;
+}
+
+.award_vote_box.open-vote .watch:hover {
+    background: #bde1e8;
+    border: 1px solid #000;
+    box-shadow: 0px 0px 5px #000;
+}
+
+.award_vote_box .watch h4,
+.award_vote_box .watch p {
+    line-height: 1.2 !important;
+}
+
+.award_vote_box .watch br {
+    display: none;
+}
+
+.award_vote_result {
+    background: #E5E5E5;
+    margin: 30px 0;
+}
+
+.award_vote_result .title {
+    font-family: Oswald !important;
+    font-weight: normal;
+    margin-top: 10px !important;
+}
+
+.award_vote_result .watch {
+    border: 1px solid transparent;
+    width: 10%;
+}
+
+.award_vote_result .watch h4,
+.award_vote_result .watch p {
+    line-height: 1.2 !important;
+}
+
+.award_content_area{
+    max-width: 1300px!important;
+    margin: 0 auto!important;
+    flex-direction:column;
+}
+.text-center{
+    text-align:center;
+}
+
+.row{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+.col-4{
+    width:33%;
+}

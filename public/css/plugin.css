@@ -1,0 +1,138 @@
+
+body{ overflow-x:hidden;}
+
+h3 a:hover, h3 a:focus, .vcwb.vcwb-font-manager .h3 a:hover, .vcwb.vcwb-font-manager .h3 a:focus, .vcwb.vcwb-font-manager .entry-content h3 a:hover, .vcwb.vcwb-font-manager .entry-content h3 a:focus, .vcwb.vcwb-font-manager #header h3 a:hover, .vcwb.vcwb-font-manager #header h3 a:focus, .vcwb.vcwb-font-manager #footer h3 a:hover, .vcwb.vcwb-font-manager #footer h3 a:focus, .vcwb.vcwb-font-manager #content h3 a:hover, .vcwb.vcwb-font-manager #content h3 a:focus, .vcwb.vcwb-font-manager h3.reply-title a:hover, .vcwb.vcwb-font-manager h3.reply-title a:focus, .vcwb.vcwb-font-manager h3.comments-title a:hover, .vcwb.vcwb-font-manager h3.comments-title a:focus, .vcwb.vcwb-font-manager h3.entry-title a:hover, .vcwb.vcwb-font-manager h3.entry-title a:focus {
+    border-bottom-color: transparent;
+}
+
+.title h3{ font-family:poppins!important;}
+
+.vce-post-list-item .vce-post-description--excerpt p, .vce-post-list-item .vce-post-list-author, .vce-post-list-item .vce-post-list-excerpt, .vce-post-list-item .vce-post-list-meta, .vce-post-list-item .vce-post-list-tags{ font-style:normal;}
+
+.content{ }
+body a:hover, body a:focus{ border-bottom-color:transparent;}
+
+.vcwb-font-manager :not(li[class*="menu"], div[class*="brand"]) > a:not(.vce-single-image-inner, [class*="button"], [class*="logo"]):hover, .vcwb-font-manager :not(li[class*="menu"], div[class*="brand"]) > a:not(.vce-single-image-inner, [class*="button"], [class*="logo"]):focus{ border-bottom:none;}
+
+.horizontal .video_container{ display: flex; align-items: center;}
+.horizontal .video_container .video_box._16_9{ padding-top: 28.125%;}
+.horizontal .video_container .content{ padding-left: 10px; box-sizing: border-box;}
+.small .video_container .content h4{ font-size: 16px; line-height: 18px;}
+.video_container .content h4{ margin-bottom: 0!important;}
+
+.video_box{ position: relative; width: 100%; overflow: hidden;}
+.video_box._16_9{ padding-top: 56.25%; /* 16:9 Aspect Ratio */}
+.video_box._4_3{ padding-top: 75%; /* 4:3 Aspect Ratio */}
+.video_box._8_5{ padding-top: 62.5%;	/* 8:5 Aspect Ratio */}
+.video_box._1_1{ padding-top: 100%; /* 1:1 Aspect Ratio */}
+.video_box iframe{ position: absolute; top: 0; left: 0; bottom: 0; right: 0; width: 100%; height: 100%; border: none; z-index:1;}
+
+.new_articles_left article{ }
+.new_articles_right article:nth-child(odd){ padding: 0 0 30px 27px!important;}
+.new_articles_right article:nth-child(even){ padding: 0px 0px 30px 27px!important;}
+
+.home_cover{ min-height: 270px;}
+.home_cover .ch_txt{ font-size: 70px!important; line-height: 1!important;}
+.home_cover .cover_txt{ margin-top:-70px;}
+.home_cover .cover_post{ margin-top:-120px;}
+.vcv-content--boxed .entry-content>[data-vce-boxed-width=true] .vce-row.home_cover{ max-width: 970px!important; margin: 0 auto;}
+
+.home_cover_box.gird_style ul li{ width:100%;}
+
+.home_newsletter form{ margin-bottom:0!important;}
+.home_newsletter .subscribe_box input[type="email"]{ background: #fff; background-image: none!important; color: #333; padding: 0 12px; margin: 0; outline: 0!important; font-size: 14px!important; height: 36px; min-height: 0; line-height: 1; font-family: poppins; font-weight: 400; border-radius: 0; width: 410px;}
+.home_newsletter .subscribe_box input[type="submit"]{ border-radius: 0; font-size: 14px; line-height: 1; font-weight: 400; font-family: 'Poppins';}
+
+.vcv-content--boxed .entry-content>[data-vce-boxed-width=true] .vce-row .home_editor{ max-width: 1300px!important; margin: 0 auto;}
+
+.vcv-content--boxed .entry-content>[data-vce-boxed-width=true] .vce-row .home_video .home_video_row{ max-width: 1300px!important; margin: 0 auto;}
+
+.vcv-content--boxed .entry-content>[data-vce-boxed-width=true] .vce-row .home_hot .hot_articles_row{ max-width: 1300px!important; margin: 0 auto;}
+
+.vcv-content--boxed .entry-content>[data-vce-boxed-width=true] .vce-row.about_content{ max-width: 1300px!important; margin: 0 auto;}
+
+.vcv-content--boxed .entry-content>[data-vce-boxed-width=true] .vce-row.contact_content{ max-width: 1300px!important; margin: 0 auto;}
+
+.vcv-content--boxed .entry-content>[data-vce-boxed-width=true] .vce-row.awards_content{ max-width: 1300px!important; margin: 0 auto;}
+
+.vcv-content--boxed .entry-content>[data-vce-boxed-width=true] .vce-row.magazine_content{ max-width: 1300px!important; margin: 0 auto;}
+
+.vcv-content--boxed .entry-content>[data-vce-boxed-width=true] .vce-row.text_content{ max-width: 1000px!important; margin: 0 auto;}
+
+.vcv-content--boxed .entry-content>[data-vce-boxed-width=true] .vce-row.advertising_content{ max-width: 1300px!important; margin: 0 auto;}
+
+.vcv-content--boxed .entry-content>[data-vce-boxed-width=true] .vce-row.jury_content{ max-width: 1300px!important; margin: 0 auto;}
+
+.vcv-content--boxed .entry-content>[data-vce-boxed-width=true] .vce-row.award_login_content{ max-width: 600px!important; margin: 0 auto;}
+
+.vcv-content--boxed .entry-content>[data-vce-boxed-width=true] .vce-row.post_content{ max-width: 1400px!important; margin: 0 auto;}
+
+.vcv-content--boxed .entry-content>[data-vce-boxed-width=true] .vce-row.registartaion_content{ max-width: 1000px!important; margin: 0 auto;}
+
+.registartaion_content .wpforms-field-container{ display:flex; flex-wrap: wrap; justify-content: space-between;}
+.registartaion_content div.wpforms-container-full .wpforms-form .wpforms-field{ width:48%;}
+.registartaion_content div.wpforms-container-full .wpforms-form .wpforms-field.full, .registartaion_content div.wpforms-container-full .wpforms-form .wpforms-field.address{ width:100%;}
+.registartaion_content div.wpforms-container-full .wpforms-form .wpforms-field.full.option{}
+.registartaion_content div.wpforms-container-full .wpforms-form .wpforms-list-inline ul li{ width: calc(25% - 25px);}
+.registartaion_content div.wpforms-container-full .wpforms-form ul li:before{ display:none;}
+
+div.wpforms-container-full .wpforms-form input[type=date], div.wpforms-container-full .wpforms-form input[type=datetime], div.wpforms-container-full .wpforms-form input[type=datetime-local], div.wpforms-container-full .wpforms-form input[type=email], div.wpforms-container-full .wpforms-form input[type=month], div.wpforms-container-full .wpforms-form input[type=number], div.wpforms-container-full .wpforms-form input[type=password], div.wpforms-container-full .wpforms-form input[type=range], div.wpforms-container-full .wpforms-form input[type=search], div.wpforms-container-full .wpforms-form input[type=tel], div.wpforms-container-full .wpforms-form input[type=text], div.wpforms-container-full .wpforms-form input[type=time], div.wpforms-container-full .wpforms-form input[type=url], div.wpforms-container-full .wpforms-form input[type=week], div.wpforms-container-full .wpforms-form select, div.wpforms-container-full .wpforms-form textarea{border-radius: 0; border: 1px solid #000; padding: 8px;}
+
+.registartaion_content div.wpforms-container-full .wpforms-form .wpforms-field-name .wpforms-field-sublabel{ text-indent:-9999999999px;}
+.registartaion_content div.wpforms-container-full .wpforms-form .wpforms-field-name .wpforms-field-row-block:first-child .wpforms-field-sublabel:after{ content:"姓氏"; display: block; font-size: 13px; text-indent: 0; margin-top: -13px;}
+.registartaion_content div.wpforms-container-full .wpforms-form .wpforms-field-name .wpforms-field-row-block:last-child .wpforms-field-sublabel:after{ content:"名字"; display: block; font-size: 13px;   text-indent: 0; margin-top: -13px;}
+
+.registartaion_content div.wpforms-container-full .wpforms-form .wpforms-field-address .wpforms-field-sublabel{ display:none;}
+.registartaion_content div.wpforms-container-full .wpforms-form .wpforms-field-address-city{ display:none;}
+.registartaion_content div.wpforms-container-full .wpforms-form .wpforms-field-address-state{ display:none;}
+
+.award_login_content .submit_button input{
+	background: #eeae48;
+	color: #000;
+	border: none;
+	padding: 10px 20px;
+	font-weight: 700!important;
+	font-size: 16px!important; 
+} 
+
+.award_content_area{ max-width: 1300px!important; margin: 0 auto!important;}
+.award_content_area .title{ font-family:Oswald!important; font-weight:normal; margin-top:10px!important;}
+.award_content_area h3{ font-size:48px!important; margin-bottom:5px!important;}
+hr.award_border{ border: 5px solid #a8c1bd !important; opacity: 1; max-width: 1300px!important; box-sizing:border-box;}
+
+
+.home_hot .hot_articles .vce-post-description--excerpt{ display:none;}
+.home_hot .hot_articles .vce-post-description--content{ display:flex; flex-direction: column-reverse; padding-bottom:10px;}
+.home_hot .hot_articles .vce-post-description--title{ margin-bottom: 8px!important; font-size: 18px!important; line-height: 1.2!important;}
+.home_hot .hot_articles.vce-news-grid-container.vce-posts-grid-container .vce-post-description--meta{ color:#000!important;}
+.home_hot .hot_articles.vce-news-grid-container.vce-posts-grid-container .vce-posts-grid--gap-30 .vce-posts-grid-item{ margin-bottom:10px;}
+
+.banner_article{ min-height:245px;}
+.banner_page{ min-height:245px;}
+.award_banner_page img{ height:330px; width:100%; object-fit:cover;}
+.award_green_area{ background:#a0c6c9; padding:0 30px;}
+.award_login{ width:100%; max-width:540px;}
+.award_login .submit_button input{
+	background: #eeae48;
+	color: #000;
+	border: none;
+	padding: 15px 30px;
+	font-weight: 700!important;
+	font-size: 24px!important; 
+} 
+.award_login .login-submit{ margin-left: 80px;}
+.award_login .login-submit input{
+	background: #eeae48;
+	color: #000;
+	border: none;
+	padding: 10px 30px;
+	font-weight: 700!important;
+} 
+.award_login .login-username label, .award_login .login-password label{ min-width:75px;}
+.award_login .submit_button input.blue_button{
+	background: url(https://spiralmagazine.com/wp-content/uploads/2022/12/bar-chart.svg) #a0c6c9 no-repeat left 30px center;
+    background-size: auto 28px;
+    padding-left: 68px;
+} 
+.award_login .submit_button input.tick_button{
+	background: url(https://spiralmagazine.com/wp-content/uploads/2…
