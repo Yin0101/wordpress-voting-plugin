@@ -1,9 +1,9 @@
-### wordpress-voting-plugin
+## wordpress-voting-plugin
 
 ### Function
-Login to vote
-Single/Multi vote
-Show result at backend
+Login to vote<br>
+Single/Multi vote<br>
+Show result at backend<br>
 
 ### Voting Listing Page
 
